@@ -2,11 +2,14 @@ body {
     margin: 0px;
 }
 
-.header {
+.hero {
     background-color: #1F2937;
-    font-size: 24px;
-    font-weight: extra-bold;
     color: #F9FAF8;
+    padding: 20px 10vw;
+}
+
+.header {
+    font-size: 24px;
     display: flex;
     justify-content: space-between;
 
@@ -19,10 +22,42 @@ body {
 }
 
 .header li {
-    padding: 20px;
+    padding-left: 20px;
     font-size: 18px;
 }
 
 .header h {
-    margin: auto 20px;
+    margin: auto 0px;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 13vh 10vw;
+}
+
+.hero-main h2 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-text {
+    width: 500px;
+}
+
+.hero-main p {
+    font-size: 18px;
+}
+
+.hero-text a {
+    background-color: #3882F6;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0.4em 1.2em;
+    border-radius: 5px;
+}
+
+.hero-text a:hover {
+    background-color: #2864c4;
 }
