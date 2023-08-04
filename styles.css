@@ -33,7 +33,7 @@ body {
 .hero-main {
     display: flex;
     justify-content: space-between;
-    padding: 13vh 10vw;
+    padding: 3vh 10vw 10vh;
 }
 
 .hero-main h2 {
@@ -60,4 +60,46 @@ body {
 
 .hero-text a:hover {
     background-color: #2864c4;
+}
+
+.features h2 {
+    text-align: center;
+}
+
+.features ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 5vh 10vw;
+
+}
+
+.features li {
+    width: 200px;
+    text-align: center;
+}
+
+.features img {
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 4vh;
+}
+
+.quote div {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.quote h {
+    text-align: end;
+    font-weight: bold;
 }
