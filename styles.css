@@ -103,3 +103,42 @@ body {
     text-align: end;
     font-weight: bold;
 }
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    margin: 10vh 0;
+    padding: 5vh 7vw;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.cta-section h {
+    font-weight: bold;
+    
+}
+
+.cta-section p {
+    margin: 3px 0;
+}
+
+.cta-section a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0.4em 1.2em;
+    margin-left: 6vw;
+    border-radius: 5px;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+
+}
