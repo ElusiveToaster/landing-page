@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .hero {
@@ -30,6 +31,11 @@ body {
     margin: auto 0px;
 }
 
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
 .hero-main {
     display: flex;
     justify-content: space-between;
@@ -38,6 +44,7 @@ body {
 
 .hero-main h2 {
     font-size: 48px;
+    
     font-weight: extra-bold;
 }
 
@@ -141,4 +148,13 @@ body {
     border-color: white;
     border-width: 1px;
 
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0.8em 0;
 }
